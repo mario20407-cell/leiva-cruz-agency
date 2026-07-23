@@ -66,56 +66,15 @@ export const HeroSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Columna Derecha: Elemento Gráfico Minimalista (Nodos IA) */}
+        {/* Columna Derecha: Logo Corporativo Completo */}
         <div className="lg:col-span-5 flex justify-center items-center">
-          <div className="relative w-72 h-72 sm:w-80 sm:h-80 bg-[#161920]/40 border border-slate-850 rounded-full flex items-center justify-center p-6 shadow-2xl backdrop-blur-sm">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 rounded-full animate-pulse" />
-            
-            {/* SVG Abstracto de Red Neuronal / Nodos IA */}
-            <svg
-              className="w-full h-full text-cyan-400/80"
-              viewBox="0 0 200 200"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {/* Conexiones / Líneas de red */}
-              <line x1="40" y1="100" x2="100" y2="40" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 3" className="opacity-40" />
-              <line x1="40" y1="100" x2="100" y2="160" stroke="currentColor" strokeWidth="1.5" className="opacity-60" />
-              <line x1="100" y1="40" x2="160" y2="100" stroke="currentColor" strokeWidth="1.5" className="opacity-80" />
-              <line x1="100" y1="160" x2="160" y2="100" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 3" className="opacity-40" />
-              <line x1="100" y1="40" x2="100" y2="160" stroke="currentColor" strokeWidth="1" className="opacity-30" />
-              <line x1="40" y1="100" x2="160" y2="100" stroke="currentColor" strokeWidth="1" className="opacity-30" />
-              
-              {/* Conexiones secundarias */}
-              <line x1="100" y1="100" x2="40" y2="100" stroke="currentColor" strokeWidth="2" />
-              <line x1="100" y1="100" x2="100" y2="40" stroke="currentColor" strokeWidth="2" />
-              <line x1="100" y1="100" x2="160" y2="100" stroke="currentColor" strokeWidth="2" />
-              <line x1="100" y1="100" x2="100" y2="160" stroke="currentColor" strokeWidth="2" />
-
-              {/* Nodos de red con pulsos */}
-              <circle cx="100" cy="100" r="14" fill="#161920" stroke="url(#gradientCenter)" strokeWidth="3" />
-              <circle cx="100" cy="100" r="4" fill="#06B6D4" />
-              
-              <circle cx="40" cy="100" r="8" fill="#161920" stroke="#3B82F6" strokeWidth="2" />
-              <circle cx="40" cy="100" r="2.5" fill="#3B82F6" />
-              
-              <circle cx="100" cy="40" r="8" fill="#161920" stroke="#06B6D4" strokeWidth="2" />
-              <circle cx="100" cy="40" r="2.5" fill="#06B6D4" />
-              
-              <circle cx="160" cy="100" r="8" fill="#161920" stroke="#3B82F6" strokeWidth="2" />
-              <circle cx="160" cy="100" r="2.5" fill="#3B82F6" />
-              
-              <circle cx="100" cy="160" r="8" fill="#161920" stroke="#06B6D4" strokeWidth="2" />
-              <circle cx="100" cy="160" r="2.5" fill="#06B6D4" />
-
-              {/* Definición de degradados */}
-              <defs>
-                <linearGradient id="gradientCenter" x1="100" y1="86" x2="100" y2="114" gradientUnits="userSpaceOnUse">
-                  <stop stopColor="#3B82F6" />
-                  <stop offset="1" stopColor="#06B6D4" />
-                </linearGradient>
-              </defs>
-            </svg>
+          <div className="relative w-72 h-72 sm:w-80 sm:h-80 bg-[#000000] border border-slate-800 rounded-full flex items-center justify-center p-8 shadow-2xl overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-full opacity-60 pointer-events-none" />
+            <img 
+              src="/logo.png" 
+              alt="Leiva Cruz Soluciones Tecnológicas Logo Completo" 
+              className="w-full h-full object-contain relative z-10 animate-fade-in" 
+            />
           </div>
         </div>
 
