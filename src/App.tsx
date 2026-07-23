@@ -14,13 +14,8 @@ export default function App(): React.JSX.Element {
       {/* Cabecera / Navegación */}
       <header className="border-b border-slate-800 bg-[#0D0F12]/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <span className="text-xl font-bold bg-gradient-to-r from-[#3B82F6] to-[#06B6D4] bg-clip-text text-transparent tracking-wider">
-              LEIVA CRUZ
-            </span>
-            <span className="text-xs uppercase px-2 py-0.5 rounded bg-slate-800 text-[#94A3B8] font-mono tracking-widest border border-slate-700">
-              Tech Solutions
-            </span>
+          <div className="flex items-center">
+            <img src="/logo.png" alt="Leiva Cruz Tech Solutions Logo" className="h-12 w-auto object-contain" />
           </div>
           <nav className="hidden md:flex items-center space-x-8 text-sm font-medium text-[#94A3B8]">
             <a href="#soluciones" className="hover:text-[#F8FAFC] transition-colors">Inicio</a>
