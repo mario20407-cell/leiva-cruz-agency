@@ -68,11 +68,12 @@ export const HeroSection: React.FC = () => {
 
         {/* Columna Derecha: Logo Corporativo Completo */}
         <div className="lg:col-span-5 flex justify-center items-center">
-          <div className="relative w-72 h-72 sm:w-80 sm:h-80 rounded-full flex items-center justify-center overflow-hidden shadow-2xl">
+          <div className="relative w-72 h-72 sm:w-80 sm:h-80 bg-black border border-slate-800 rounded-full flex items-center justify-center p-6 sm:p-8 shadow-2xl overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 rounded-full opacity-60 pointer-events-none" />
             <img 
               src="/logo.png" 
               alt="Leiva Cruz Soluciones Tecnológicas Logo Completo" 
-              className="w-full h-full object-cover relative z-10 animate-fade-in" 
+              className="w-full h-full object-contain relative z-10 animate-fade-in" 
             />
           </div>
         </div>
