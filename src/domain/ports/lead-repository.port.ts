@@ -1,4 +1,4 @@
-import { Lead } from '../entities/lead.entity';
+import type { Lead } from '../entities/lead.entity';
 
 /**
  * Puerto de salida para la persistencia y gestión de Leads en el dominio.
