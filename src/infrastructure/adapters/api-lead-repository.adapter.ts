@@ -1,5 +1,5 @@
-import { Lead } from '../../domain/entities/lead.entity';
-import { ILeadRepository } from '../../domain/ports/lead-repository.port';
+import type { Lead } from '../../domain/entities/lead.entity';
+import type { ILeadRepository } from '../../domain/ports/lead-repository.port';
 
 /**
  * Adaptador de Infraestructura para persistir leads mediante peticiones HTTP.
