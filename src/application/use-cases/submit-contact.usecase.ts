@@ -1,5 +1,6 @@
-import { Lead, validateLead, CreateLeadProps } from '../../domain/entities/lead.entity';
-import { ILeadRepository } from '../../domain/ports/lead-repository.port';
+import { validateLead } from '../../domain/entities/lead.entity';
+import type { Lead, CreateLeadProps } from '../../domain/entities/lead.entity';
+import type { ILeadRepository } from '../../domain/ports/lead-repository.port';
 
 /**
  * Caso de Uso: Registrar e iniciar el contacto con un nuevo cliente potencial (Lead).
@@ -9,8 +10,12 @@ export class SubmitContactUseCase {
   /**
    * Recibe la abstracción/puerto del repositorio por inyección de dependencias (DIP - SOLID).
    */
-  constructor(private readonly leadRepository: ILeadRepository) {}
+  private readonly leadRepository: ILeadRepository;
 
+  constructor(leadRepository: ILeadRepository) {
+    this.leadRepository = leadRepository;
+  }
+  
   /**
    * Ejecuta el caso de uso del formulario de contacto corporativo.
    * 
