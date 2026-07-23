@@ -52,20 +52,20 @@ export default function App(): React.JSX.Element {
             <div className="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full text-xs font-semibold text-blue-400">
               🚀 RESPUESTA EN MENOS DE 24 HORAS
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#F8FAFC]">
-              ¿Listo para automatizar <br />tu negocio de alimentos?
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-[#F8FAFC] leading-tight">
+              ¿Tu empresa está diseñada para crecer o para consumir todo tu tiempo?
             </h2>
             <p className="text-[#94A3B8] text-base md:text-lg leading-relaxed">
-              Trabajamos de la mano con fundadores y equipos de operaciones para integrar sistemas web que eliminan las tareas manuales y optimizan tus márgenes de ganancia.
+              Trabajamos mano a mano con fundadores y líderes de operaciones para transformar la complejidad y el desorden en sistemas web inteligentes y automatizados. Eliminamos el trabajo manual pesado, resolvemos los cuellos de botella que frenan tu negocio y devolvemos el control total de tu rentabilidad.
             </p>
             <div className="space-y-4 pt-4">
-              <div className="flex items-center space-x-3 text-sm text-[#94A3B8]">
-                <span className="text-cyan-400">✔</span>
-                <span>Asesoría directa con arquitectos de software sénior.</span>
+              <div className="flex items-start space-x-3 text-sm text-[#94A3B8]">
+                <span className="text-cyan-400 mt-0.5">✔</span>
+                <span><strong>Estrategia y software a la medida</strong> guiados por arquitectos de software sénior.</span>
               </div>
-              <div className="flex items-center space-x-3 text-sm text-[#94A3B8]">
-                <span className="text-cyan-400">✔</span>
-                <span>Análisis de procesos e inventarios sin coste inicial.</span>
+              <div className="flex items-start space-x-3 text-sm text-[#94A3B8]">
+                <span className="text-cyan-400 mt-0.5">✔</span>
+                <span><strong>Auditoría de procesos sin costo:</strong> evaluamos tu operación actual para mostrarte exactamente cómo eliminar fugas de tiempo y dinero.</span>
               </div>
             </div>
           </div>
