@@ -1,6 +1,7 @@
 import React from 'react';
 import { HeroSection } from './presentation/components/HeroSection';
 import { ServicesSection } from './presentation/components/ServicesSection';
+import { AboutSection } from './presentation/components/AboutSection';
 import { LeadForm } from './presentation/components/LeadForm';
 
 /**
@@ -39,6 +40,9 @@ export default function App(): React.JSX.Element {
 
       {/* 2. Sección de Servicios / Ecosistema */}
       <ServicesSection />
+
+      {/* 2.5. Propuesta de Valor Institucional (Misión, Visión, Oferta) */}
+      <AboutSection />
 
       {/* 3. Sección de Captación de Leads / Formulario de Contacto */}
       <section className="py-20 bg-[#0D0F12] border-t border-slate-900" id="contacto">
