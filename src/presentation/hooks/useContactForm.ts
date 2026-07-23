@@ -1,5 +1,6 @@
-import { useState, ChangeEvent, FormEvent } from 'react';
-import { CreateLeadProps } from '../../domain/entities/lead.entity';
+import { useState } from 'react';
+import type { ChangeEvent, FormEvent } from 'react';
+import type { CreateLeadProps } from '../../domain/entities/lead.entity';
 import { SubmitContactUseCase } from '../../application/use-cases/submit-contact.usecase';
 import { ApiLeadRepository } from '../../infrastructure/adapters/api-lead-repository.adapter';
 
