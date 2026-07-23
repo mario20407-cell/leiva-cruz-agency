@@ -66,9 +66,9 @@ export const HeroSection: React.FC = () => {
           </div>
         </div>
 
-        {/* Columna Derecha: Logo Corporativo Completo */}
+        {/* Columna Derecha: Logo Corporativo Completo (75% más grande) */}
         <div className="lg:col-span-5 flex justify-center items-center">
-          <div className="relative w-72 h-72 sm:w-80 sm:h-80 bg-black border border-slate-800 rounded-full flex items-center justify-center p-6 sm:p-8 shadow-2xl overflow-hidden">
+          <div className="relative w-[380px] h-[380px] sm:w-[520px] sm:h-[520px] bg-black border border-slate-800 rounded-full flex items-center justify-center p-8 sm:p-12 shadow-2xl overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 rounded-full opacity-60 pointer-events-none" />
             <img 
               src="/logo.png" 
