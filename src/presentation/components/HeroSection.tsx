@@ -23,15 +23,16 @@ export const HeroSection: React.FC = () => {
 
         {/* Titular */}
         <h1 className="text-4xl sm:text-6xl font-extrabold text-[#F8FAFC] tracking-tight leading-[1.1] max-w-5xl mx-auto">
-          Automatización y Software a la Medida para <br />
+          Software a la Medida y <br className="hidden sm:inline" />
           <span className="bg-gradient-to-r from-[#3B82F6] via-[#22D3EE] to-[#06B6D4] bg-clip-text text-transparent">
-            Panaderías, Bistrós y PyMEs
-          </span>
+            Sistemas Inteligentes
+          </span> <br className="hidden sm:inline" />
+          para Elevar tu Negocio
         </h1>
 
         {/* Descripción */}
-        <p className="text-[#94A3B8] text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-          Optimiza tu producción de alimentos, controla inventarios en tiempo real y automatiza cálculos complejos como costes fiscales y porcentajes de panadero con sistemas robustos a medida.
+        <p className="text-[#94A3B8] text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
+          ¿Y si tu operación pudiera escalar sin multiplicar tus dolores de cabeza? En Leiva Cruz Soluciones Tecnológicas creamos sistemas hechos a la medida exacta de tu negocio, potenciados con Inteligencia Artificial de última generación. Automatizamos procesos complejos, optimizamos recursos y asistimos a tus clientes con precisión y rapidez 24/7.
         </p>
 
         {/* CTA Botones */}
