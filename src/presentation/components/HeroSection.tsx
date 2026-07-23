@@ -73,7 +73,7 @@ export const HeroSection: React.FC = () => {
             <img 
               src="/logo.png" 
               alt="Leiva Cruz Soluciones Tecnológicas Logo Completo" 
-              className="w-full h-full object-contain relative z-10 scale-[1.75] origin-center animate-fade-in" 
+              className="w-full h-full object-contain relative z-10 scale-[1.75] -translate-y-3 origin-center animate-fade-in" 
             />
           </div>
         </div>
